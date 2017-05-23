@@ -33,6 +33,7 @@
     <link href="{{ asset('theme/css/style-responsive.css') }}" rel="stylesheet" />
     <link href="{{ asset('theme/css/xcharts.min.css') }}" rel=" stylesheet"> 
     <link href="{{ asset('theme/css/jquery-ui-1.10.4.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('theme/css/bootstrap-tagsinput.css') }}" rel="stylesheet">
     <!-- =======================================================
         Theme Name: NiceAdmin
         Theme URL: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/
@@ -376,6 +377,8 @@
     <script src="{{ asset('theme/js/sparklines.js') }}"></script>    
     <script src="{{ asset('theme/js/charts.js') }}"></script>
     <script src="{{ asset('theme/js/jquery.slimscroll.min.js') }}"></script>
+    <script src="{{ asset('theme/js/bootstrap-tagsinput.js') }}"></script>
+    <script src="{{ asset('theme/js/bootstrap-tagsinput-angular.js') }}"></script>
   <script>
 
       //knob

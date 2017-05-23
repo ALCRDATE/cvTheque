@@ -47,5 +47,7 @@ Route::get('/espaceCondidat' , function(){
 
 Route::post('/insert' , 'Controller@insert');
 Route::post('/insertDomaine/{idEn}', 'Controller@insertDomaine');
-Route::post('/modifierCoordonnee/{idEn}' , 'EntrepriseController@update')->name('modifierCoordonnee');
+Route::post('/modifierCoordonnee/' , 'EntrepriseController@update')->name('modifierCoordonnee');
 Route::post('/ajouterCoordonnee' , 'EntrepriseController@store')->name('storeCoordonnee');
+Route::post('/ajouterAnnonce' , 'AnnonceController@store')->name('storeAnnonce');
+Route::get('/supprimerAnnonce/{$ida}' , 'AnnonceController@destroy')->name('destroyAnnonce');

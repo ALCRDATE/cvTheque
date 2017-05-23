@@ -25,7 +25,7 @@
                 </div>
             </div>
             <div class="panel-body col-lg-5">
-               <?php echo  "<form method = 'post' action = '/modifierCoordonnee/{$idEn}'>"; ?>
+               <?php echo  "<form method = 'post' action = '/modifierCoordonnee'>"; ?>
                 {{ csrf_field() }}
                   <div class="form-group">
                     <label for="exampleInputEmail1">Raison social</label>
